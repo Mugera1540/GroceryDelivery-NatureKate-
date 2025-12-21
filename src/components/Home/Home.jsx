@@ -5,6 +5,9 @@ import Category from '../Category/Category'
 import Values from '../Values/Values'
 import Products from '../Products/Products'
 import Discount from '../Discount/Discount'
+import Process from '../Process/Process'
+import TestMonials from '../TestMonials/TestMonials'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
       <Values />
       < Products/>
       <Discount />
+      <Process/>
+      <TestMonials/>
+      <Footer/>
 
     </div>
   )
