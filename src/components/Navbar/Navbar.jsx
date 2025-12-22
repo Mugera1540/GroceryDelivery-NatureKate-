@@ -3,6 +3,7 @@ import { IoIosHeartEmpty } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
 import { CiSearch,CiMenuFries} from "react-icons/ci";
 import { IoMenuOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 
 
@@ -27,9 +28,9 @@ const Navbar = () => {
         <header className={`bg-white fixed top-0 right-0 left-0 z-50 ${isScroll ? 'drop-shadow-[0_4px_25px_rgba(0,0,0,0.1)]' : ""}`}>
             <nav className=' max-w-[1400px] mx-auto px-10  md:h-[14vh] h-[12vh] flex justify-between items-center '>
                 {/* Logo */}
-                <a href="#" className='text-3xl font-bold'>
+                <Link to="/" className='text-3xl font-bold'>
                     <span className='text-orange-500 uppercase'>N</span>ature<span className='text-orange-500 uppercase'>C</span>rate
-                </a>
+                </Link>
 
                 {/* Desktop menu */}
 

@@ -25,6 +25,8 @@ import RicottaCheese from '../../assets/ricotta-cheese.png'
 import Grapes from '../../assets/grapes.png'
 import Lettuce from '../../assets/lettuce.png'
 
+// import Beef from '../../assets/Goat.jpg'
+
 const ProductList=[
      {
         id: 1,
@@ -97,7 +99,7 @@ const ProductList=[
     },
     {
         id: 11,
-        name: 'Beef',
+        name: 'Goat',
         price: 8.0,
         category: 'Meat',
         image: Beef
